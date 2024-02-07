@@ -18,8 +18,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "splitselection.helloWorld",
-        "title": "Hello World"
+        "command": "split_selection_into_lines",
+        "title": "Split Selection"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "split_selection_into_lines",
+        "key": "ctrl+shift+l",
+        "mac": "cmd+shift+l",
+        "when": "editorTextFocus"
       }
     ]
   },
